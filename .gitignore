@@ -1,0 +1,18 @@
+# Thư mục thư viện Node.js (nặng, cài lại được bằng npm install)
+node_modules/
+
+# File biến môi trường chứa mật khẩu / JWT_SECRET (chỉ giữ .env.example)
+.env
+.env.local
+!.env.example
+
+# Thư mục build của Vite (frontend)
+dist/
+
+# File log khi chạy npm
+*.log
+
+# File rác của hệ điều hành & editor
+.DS_Store
+Thumbs.db
+.vscode/
